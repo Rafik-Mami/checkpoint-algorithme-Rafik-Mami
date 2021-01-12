@@ -9,7 +9,7 @@ BEGIN
  WHILE (str[i] != "." )
 
     
-    IF (str[i] == 'a' || str[i] == 'i' || str[i] == 'o' ||str[i]== 'e' ||str[i]. == 'u' || str[i] == 'A' || str[i] == 'I' || str[i] == 'O' ||str[i]== 'E' ||str[i]. == 'U')
+    IF (str[i] == 'a' || str[i] == 'i' || str[i] == 'o' ||str[i]== 'e' ||str[i] == 'u' || str[i] == 'A' || str[i] == 'I' || str[i] == 'O' ||str[i]== 'E' ||str[i] == 'U')
 
 THEN  NBvowels++;
         i++;
@@ -25,5 +25,5 @@ THEN  NBvowels++;
 
  END_WHILE
  length++;
- Write("the number of words is",NBword "the length is ",length "the number of vowels is",NBvowels)
+ Write("the number of words is",NBword ,"the length is ",length, "the number of vowels is",NBvowels)
 END
